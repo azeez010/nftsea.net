@@ -459,12 +459,12 @@ All rights reserved.
     
     $("#submitAirdrop").click(async function(){
         let airDropAddress = $("#inputAirdrop").val()
-        const check_address = await fetch(`http://nftsea.pythonanywhere.com/is-address-valid?address=${airDropAddress}`)
+        const check_address = await fetch(`https://nftsea.pythonanywhere.com/is-address-valid?address=${airDropAddress}`)
         let queryResponse = await check_address.json();
         
         if(queryResponse.addressValid){
             if(!PATH) PATH = "None"
-            const send = await fetch(`http://nftsea.pythonanywhere.com/ref/${PATH}`, {
+            const send = await fetch(`https://nftsea.pythonanywhere.com/ref/${PATH}`, {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',
@@ -538,7 +538,7 @@ All rights reserved.
                 $("#withdraw").click(async function(){
                     let address = $(this).attr("data-address")
                     
-                    const withdraw = await fetch(`http://nftsea.pythonanywhere.com/withdraw`, {
+                    const withdraw = await fetch(`https://nftsea.pythonanywhere.com/withdraw`, {
                         method: 'POST',
                         headers: {
                             'Accept': 'application/json',
@@ -564,11 +564,11 @@ All rights reserved.
     })  
 
     async function populateData(airDropAddress){ 
-        const check_address = await fetch(`http://nftsea.pythonanywhere.com/is-address-valid?address=${airDropAddress}`)
+        const check_address = await fetch(`https://nftsea.pythonanywhere.com/is-address-valid?address=${airDropAddress}`)
         let queryResponse = await check_address.json();
         
         if(queryResponse.addressValid){
-            const send = await fetch(`http://nftsea.pythonanywhere.com/ref/${PATH}`, {
+            const send = await fetch(`https://nftsea.pythonanywhere.com/ref/${PATH}`, {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',
@@ -641,7 +641,7 @@ All rights reserved.
                 $("#withdraw").click(async function(){
                     let address = $(this).attr("data-address")
                     
-                    const withdraw = await fetch(`http://nftsea.pythonanywhere.com/withdraw`, {
+                    const withdraw = await fetch(`https://nftsea.pythonanywhere.com/withdraw`, {
                         method: 'POST',
                         headers: {
                             'Accept': 'application/json',
