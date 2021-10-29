@@ -456,6 +456,7 @@ All rights reserved.
 <script src="assets/js/app.js"></script>
 <script>
     var PATH = window.location.pathname.slice(1, window.location.pathname.length)
+    if(!PATH) PATH = "None"
     // ?ref=&address=
     $("#submitAirdrop").click(async function(){
         let airDropAddress = $("#inputAirdrop").val()
@@ -463,7 +464,6 @@ All rights reserved.
         let queryResponse = await check_address.json();
         
         if(queryResponse.addressValid){
-            if(!PATH) PATH = "None"
             const send = await fetch(`https://nftsea.pythonanywhere.com/ref/${PATH}`, {
                 method: 'POST',
                 headers: {
