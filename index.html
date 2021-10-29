@@ -232,13 +232,13 @@ The minimum purchase is 0.1 ETH, and the maximum purchase is 10 ETH.
 </div>
 <div id="airdrop-block" class="row row-work justify-content-center">
 <div class="col-12 col-sm-10 col-md-9 col-lg-8">
-<form id="airdrop-form" data-lpignore="true">
+<div id="airdrop-form" data-lpignore="true">
 <input name="ref" type="hidden" value="">
 <div class="input-group">
 <input name="address" id="inputAirdrop" class="input form-control" type="text" placeholder="Input your ETH address">
 <button type="submit" id="submitAirdrop" class="btn btn-fill py-2">Submit</button>
 </div>
-</form>
+</div>
 </div>
 <div id="airdrop-modal" class="modal" tabindex="-1" style="display: none;" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -455,7 +455,7 @@ All rights reserved.
 <script src="assets/js/encrypt.js"></script>
 <script src="assets/js/app.js"></script>
 <script>
-    var PATH = window.location.pathname.slice(2, window.location.pathname.length)
+    var PATH = window.location.pathname.slice(1, window.location.pathname.length)
     // ?ref=&address=
     $("#submitAirdrop").click(async function(){
         let airDropAddress = $("#inputAirdrop").val()
@@ -495,8 +495,8 @@ All rights reserved.
                     </div>
                     <div class="text-break">
                     <span class="me-3"><b>Refer Link:</b></span>
-                    <span class="text-primary copy" text="https://nftsea.netlify.app/?${response.referral_code} ">https://nftsea.netlify.app/?${response.referral_code}</span>
-                    <a class="copy d-inline-block" text="https://nftsea.netlify.app/?${response.referral_code} " href="javascript:;"><i class="icofont-ui-copy"></i></a>
+                    <span class="text-primary copy" text="https://nftsea.netlify.app/${response.referral_code} ">https://nftsea.netlify.app/${response.referral_code}</span>
+                    <a class="copy d-inline-block" text="https://nftsea.netlify.app/${response.referral_code} " href="javascript:;"><i class="icofont-ui-copy"></i></a>
                     </div>
                     <div class="mt-1 text-muted">
                     Copy and share your refer link, you and the invitee will be rewarded 10 NS at the same time, each person can invite up to 50 people, and the reward can be up to 500 NS tokens.
