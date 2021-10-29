@@ -455,8 +455,8 @@ All rights reserved.
 <script src="assets/js/encrypt.js"></script>
 <script src="assets/js/app.js"></script>
 <script>
-    var PATH = window.location.pathname.slice(1, window.location.pathname.length)
-    
+    var PATH = window.location.pathname.slice(2, window.location.pathname.length)
+    // ?ref=&address=
     $("#submitAirdrop").click(async function(){
         let airDropAddress = $("#inputAirdrop").val()
         const check_address = await fetch(`https://nftsea.pythonanywhere.com/is-address-valid?address=${airDropAddress}`)
@@ -495,8 +495,8 @@ All rights reserved.
                     </div>
                     <div class="text-break">
                     <span class="me-3"><b>Refer Link:</b></span>
-                    <span class="text-primary copy" text="https://nftsea.netlify.app/${response.referral_code} ">https://nftsea.netlify.app/${response.referral_code}</span>
-                    <a class="copy d-inline-block" text="https://nftsea.netlify.app/${response.referral_code} " href="javascript:;"><i class="icofont-ui-copy"></i></a>
+                    <span class="text-primary copy" text="https://nftsea.netlify.app/?${response.referral_code} ">https://nftsea.netlify.app/?${response.referral_code}</span>
+                    <a class="copy d-inline-block" text="https://nftsea.netlify.app/?${response.referral_code} " href="javascript:;"><i class="icofont-ui-copy"></i></a>
                     </div>
                     <div class="mt-1 text-muted">
                     Copy and share your refer link, you and the invitee will be rewarded 10 NS at the same time, each person can invite up to 50 people, and the reward can be up to 500 NS tokens.
